@@ -1,0 +1,222 @@
+// initial reset
+*
+  margin: auto
+  padding: 0
+body
+  font-family: 'Quicksand', sans-serif
+  header
+    background: linear-gradient(to right, rgb(111, 129, 255), rgb(130, 255, 151))
+    padding: 40px
+    text-align: center
+    color: whitesmoke
+    span
+      display: none
+    a
+      text-decoration: none
+      color: inherit
+      h1
+        font-weight: normal
+  .container
+    .list
+      list-style-type: none
+      text-align: center
+      background: rgb(10, 8, 8)
+      border-top: 4px solid #ef134f
+      li
+        display: inline-block
+        margin: 1px 0
+        padding: 10px 5px
+        border-bottom: 1px solid #151414
+        // border: 2px solid #444
+        // background: paleturquoise
+        a
+          text-decoration: none
+          color: burlywood
+          font-weight: bold
+        &:hover
+          background: rgba(50, 138, 130, 0.32)
+          transition: background ease 1s
+  .hero-unit
+    position: relative
+    img
+      height: auto
+      width: 100%
+      margin: auto
+    h2
+      background: rgba(37, 197, 175, 0.59)
+      color: rgba(8, 4, 10, 0.81)
+      position: absolute
+      top: 98px
+      left: 20px
+      // margin: 5px
+      padding: 5px
+      letter-spacing: 4px
+      font-size: 48px
+    p
+      background: rgba(37, 197, 175, 0.59)
+      color: rgba(8, 4, 10, 0.81)
+      position: absolute
+      top: 178px
+      left: 20px
+      // margin: 5px
+      padding: 5px
+      font-weight: bold
+      letter-spacing: 4px
+  .content
+    position: relative
+    h3
+      // background: rgba(222, 209, 209, 0.49)
+      margin: 5px
+      padding: 5px
+      text-align: center
+    p
+      text-align: center
+      margin: auto
+      padding: 10px
+  .portfolio
+    position: relative
+    // background: rgb(9, 212, 141)
+    margin: 5px
+    padding: 5px
+    border-radius: 4px
+    img
+      height: auto
+      width: 100%
+  footer
+    position: relative
+    background: rgb(9, 212, 141)
+    .footer-list
+      list-style-type: none
+      // text-align: center
+      li
+        display: inline-block
+        margin: 5px
+        padding: 5px
+        a
+          text-decoration: none
+          color: whitesmoke
+
+
+  .swdev
+    position: relative
+    display: none
+    h3, h4
+      text-align: center
+      background: #f1f1f1
+      margin: 5px
+      padding: 10px
+    .langs
+      margin: 5px
+      list-style-type: none
+      li
+        padding: 5px
+      li:nth-child(odd)
+        background: #f5f5f5
+      li:nth-child(even)
+        background: #fbfbfb
+    h4#honmen
+      background: dodgerblue
+      padding: 40px
+      border-radius: 4px
+      color: whitesmoke
+    p
+      text-align: center
+      background: #f9f9f9
+      color: #444
+      margin: 5px 5px 20px
+      padding: 10px
+
+// [--------------------------MEDIA QUERIES--------------------------]
+@media only screen and (max-width: 960px)
+  header
+    span
+      display: none
+    h1
+      text-align: center
+  .container
+    .list
+      height: auto
+      width: auto
+      li
+        display: inline-block
+        margin: 2px auto
+        width: auto
+@media only screen and (max-width: 960px)
+body
+  .hero-unit
+    position: relative
+    h2
+      background: rgba(37, 197, 175, 0.59)
+      color: rgba(8, 4, 10, 0.81)
+      position: absolute
+      top: 120px
+      // left: 20px
+      margin: 5px
+      padding: 5px
+      font-size: 36px
+    p
+      background: rgba(37, 197, 175, 0.59)
+      color: rgba(8, 4, 10, 0.81)
+      position: absolute
+      top: 190px
+      // left: 20px
+      margin: 5px
+      padding: 5px
+      font-weight: bold
+
+@media only screen and (max-width: 540px)
+  header
+    // width: 100%
+    overflow: hidden
+    .menu
+      position: absolute
+      top: 50px
+      left: 20px
+      cursor: pointer
+      div
+        background: #fff
+        height: 2px
+        width: 24px
+        margin: 2px auto
+    span
+      position: absolute
+      top: 40px
+      left: 20px
+      font-size: 32px
+      cursor: pointer
+      display: none
+    h1
+      text-align: center
+  .container
+    .list
+      height: auto
+      width: 100%
+      display: none
+      li
+        display: block
+        margin: 2px auto
+        width: 100%
+        text-align: center
+        letter-spacing: 4px
+@media only screen and (max-width: 540px)
+body
+  .hero-unit
+    position: relative
+    h2
+      background: rgba(37, 197, 175, 0.59)
+      color: rgba(8, 4, 10, 0.81)
+      position: absolute
+      top: 60px
+      left: 0
+      margin: 5px
+      padding: 5px
+      font-size: 28px
+    p
+      background: rgba(37, 197, 175, 0.59)
+      color: rgba(8, 4, 10, 0.81)
+      position: absolute
+      top: 112px
+      left: 0
+      margin: 5px
+      padding: 5px
+      font-weight: bold
