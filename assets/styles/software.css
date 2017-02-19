@@ -1,0 +1,26 @@
+body {
+  font-family: "Quicksand", sans-serif; }
+  body .container {
+    position: relative; }
+    body .container h3, body .container h4 {
+      background: rgba(243, 238, 238, 0.54);
+      padding: 10px;
+      text-align: center; }
+    body .container p {
+      text-align: center; }
+      body .container p .langs {
+        list-style-type: none; }
+        body .container p .langs li {
+          display: inline-block; }
+          body .container p .langs li:nth-child(odd) {
+            background: #cccccc; }
+          body .container p .langs li:nth-child(even) {
+            background: #dfdfdf; }
+    body .container h4#honmen {
+      background: dodgerblue;
+      padding: 40px;
+      text-align: center;
+      color: ghostwhite;
+      border-radius: 4px; }
+
+/*# sourceMappingURL=software.css.map */

@@ -1,0 +1,26 @@
+// importing bourbon
+@import "bourbon/bourbon"
+body
+  font-family: 'Quicksand', sans-serif
+  .container
+    position: relative
+    h3, h4
+      background: rgba(243, 238, 238, 0.54)
+      padding: 10px
+      text-align: center
+    p
+      text-align: center
+      .langs
+        list-style-type: none
+        li
+          display: inline-block
+          &:nth-child(odd)
+            background: tint(grey, 60%)
+          &:nth-child(even)
+            background: tint(grey, 75%)
+    h4#honmen
+      background: dodgerblue
+      padding: 40px
+      text-align: center
+      color: ghostwhite
+      border-radius: 4px

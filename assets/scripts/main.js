@@ -13,11 +13,11 @@ $(document).ready(function() {
     });
   });
 
-  $('body .container .list li:nth-child(1n)').click(function() {
-    $('body .swdev').show();
-    $('body .container .list').hide();
-    $('body header span').hide();
-    $('body header .menu > div').show();
-  });
+  // $('body .container .list li:nth-child(1n)').click(function() {
+  //   $('body .swdev').show();
+  //   $('body .container .list').hide();
+  //   $('body header span').hide();
+  //   $('body header .menu > div').show();
+  // });
 
 });
